@@ -1,0 +1,48 @@
+:root{
+    
+    --blue: #111;
+    --bg-color: #fff;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+
+.m-auto1{
+    margin: 0px auto ;
+}
+
+.m-auto{
+    margin: 20px auto ;
+
+}
+
+
+.btn{
+    padding: 4px 12px;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;   
+}
+
+.btn:hover{
+    color: rgb(104, 214, 128);
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-read{
+    margin-top: 10px;
+    width: 140px;
+    border-radius: 15px;
+    background-color: rgb(104, 214, 128) ;
+    color: #fff;
+    padding: 5px 12px;
+   
+}

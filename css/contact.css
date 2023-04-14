@@ -1,0 +1,38 @@
+.contact-content{
+    display: block;
+    height: 395px;
+    position: relative;
+    background-image: url("../img/HD-wallpaper-space-open-space-planets-art-colorful.jpg");
+    opacity: 70%;
+
+   }
+
+
+.contact-content ::after
+{
+    content: "";
+    height: 10px;
+    background-image: url("/img/images.jfif");
+    position: absolute;
+    height: 10px;
+    background-position: center;
+    z-index: 1;
+}
+
+h2{
+    color: aliceblue;
+}
+
+.contact-box textarea,input
+{
+    width: 50vw;
+    padding: 2px;
+    margin: 5px;
+    border: 1.5px solid rgb(252, 151, 68);
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 14px;
+    
+}
+
+
